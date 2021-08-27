@@ -1,8 +1,8 @@
-# HMY3652's blog
+# Welcome to HMY3652's blog
 
 ## 博客
 
-暂无内容
+ 1.[用Dev-c++给程序添加图标、版本号、说明等信息](blogs/2021-08-27.md)
 
 
 
