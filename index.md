@@ -1,6 +1,6 @@
 ## 博客
 
- 1.[用Dev-c++给程序添加图标、版本号、说明等信息](_posts/2021-08-27.md)
+ 1.[用Dev-c++给程序添加图标、版本号、说明等信息](_posts/2021-08-27-blog.md)
 
 
 
@@ -11,6 +11,5 @@
    简介：CalculationGame是一个轻量的控制台程序，您可以使用它来提高您的计算能力。
 
    [了解更多](https://myh3652-calculationgame.github.io/)
-   
    
    
