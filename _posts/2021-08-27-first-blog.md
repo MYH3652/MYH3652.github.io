@@ -1,9 +1,6 @@
-
-
-layout: post 
-
-title:  "用Dev-c++给程序添加图标、版本号、说明等信息"
-
+---
+layout: post
+title: 你好，世界
 ---
 
 具体操作如下：
