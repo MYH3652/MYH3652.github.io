@@ -2,6 +2,8 @@
 
  1.[用Dev-c++给程序添加图标、版本号、说明等信息](_posts/2021-08-27-first-blog.md)
 
+ 2.[C++ 控制台居中输出](_posts/2021-09-12-original-blog.md)
+
 
 
 ## 作品
