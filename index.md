@@ -1,5 +1,5 @@
 ---
-Huang Mingyang's Home
+title: Huang Mingyang's Home
 ---
 
 ## 博客
