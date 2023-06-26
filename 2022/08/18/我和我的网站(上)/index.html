@@ -24,16 +24,16 @@
 <meta property="og:site_name" content="黄明洋世界">
 <meta property="og:description" content="写这篇文章，一是记录自己的经历，二是给像我一样想要建站的小白一些经验。 起因很多学编程的朋友都希望有一个自己的网站，我也不例外。首先，搭建一个自己的网站可以学习并实践网络知识、提高自己的计算机水平、结识一些有趣的人、发表自己的学习心得，当然还可以装逼 。我在上学时就计划暑假大干一场，搞一个自己的网站。说干就干，于是就有了下面这段经历。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/a2ee61f5cdbbf7ad857ad5a23a4c8ce2.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/c41a4cd58fed9fcc31cdeb402f28a782.png">
+<meta property="og:image" content="https://s1.ax1x.com/2023/06/26/pCULvvQ.png">
+<meta property="og:image" content="https://s1.ax1x.com/2023/06/26/pCULzuj.png">
 <meta property="article:published_time" content="2022-08-18T15:25:00.000Z">
-<meta property="article:modified_time" content="2022-08-18T15:26:07.678Z">
+<meta property="article:modified_time" content="2023-06-26T12:21:54.957Z">
 <meta property="article:author" content="黄明洋">
 <meta property="article:tag" content="建站">
 <meta property="article:tag" content="网络">
 <meta property="article:tag" content="WordPress">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/img_convert/a2ee61f5cdbbf7ad857ad5a23a4c8ce2.png">
+<meta name="twitter:image" content="https://s1.ax1x.com/2023/06/26/pCULvvQ.png">
   
     <link rel="alternate" href="/atom.xml" title="黄明洋世界" type="application/atom+xml">
   
@@ -126,8 +126,8 @@
 <h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>很多学编程的朋友都希望有一个自己的网站，我也不例外。首先，搭建一个自己的网站可以学习并实践网络知识、提高自己的计算机水平、结识一些有趣的人、发表自己的学习心得，<del>当然还可以装逼</del> 。我在上学时就计划暑假大干一场，搞一个自己的网站。说干就干，于是就有了下面这段经历。</p>
 <span id="more"></span>
 <h2 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h2><h3 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h3><p>由于我是一个小白，没有建站经验，所以在建站之前我花费了一些时间查阅资料、电子书，学习一些网络基础知识。例如：什么是IP地址，什么是域名。</p>
-<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>我在DNSpod上购买了域名hmyworld.com，一年不超过一百元。并在腾讯云购买了轻量云服务器。腾讯云对新用户优惠力度很大，所以第一次购买很便宜。<br><img src="https://img-blog.csdnimg.cn/img_convert/a2ee61f5cdbbf7ad857ad5a23a4c8ce2.png" alt="6-2.png"></p>
-<h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><p>我个人是准备搭建一个博客网站，但我对Linux不熟悉，所以我选择了图形化的Windows Server操作系统，比较容易上手。接着我又安装了PHP、MySQL和WordPress。<br><img src="https://img-blog.csdnimg.cn/img_convert/c41a4cd58fed9fcc31cdeb402f28a782.png" alt="6-1.png"><br>最初的操作行云流水，如丝绸般丝滑。随着步骤一步步推进，我遇到了一些问题。</p>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>我在DNSpod上购买了域名hmyworld.com，一年不超过一百元。并在腾讯云购买了轻量云服务器。腾讯云对新用户优惠力度很大，所以第一次购买很便宜。<br><img src="https://s1.ax1x.com/2023/06/26/pCULvvQ.png" alt="6-2.png"></p>
+<h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><p>我个人是准备搭建一个博客网站，但我对Linux不熟悉，所以我选择了图形化的Windows Server操作系统，比较容易上手。接着我又安装了PHP、MySQL和WordPress。<br><img src="https://s1.ax1x.com/2023/06/26/pCULzuj.png" alt="6-1.png"><br>最初的操作行云流水，如丝绸般丝滑。随着步骤一步步推进，我遇到了一些问题。</p>
 <ol>
 <li>当我用“show databases”命令查询数据库时，它向我提示命令无效。我当时就懵逼了。我怀疑是单词拼错，反复检查好几次，确认无误。之后我又在网上找教程，最后发现原来是“show databases”之后的“;”没有写。</li>
 <li>本想着已经万事俱备，但当我尝试用WordPress安装插件时，却出现了巨多错误。接着我上网搜索，借鉴前人经验，最终手动安装上插件。但这样做治标不治本。不只是插件安装不上，图片也无法上传。上传图片时WordPress报错缺少临时文件夹。我又想到这可能是权限问题。我更改了C:\Windows\Temp文件夹以及WordPress根目录的权限，没想到竟奇迹般成功了。（这样做可能会降低网站安全性，谨慎操作。）</li>
